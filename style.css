@@ -1,0 +1,327 @@
+<html>
+ <head>
+     <title>Home</title>   
+     <style>
+header {
+  padding: 30px;
+  text-align: top;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+nav {
+  float: left;
+  width: 30%;   
+  background:  #111;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 0px;
+  height: 250px
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 0px;
+  padding-left: 98px;
+  padding-top: 2px;
+  width: 50%;
+  background-color: #111;
+  height: 50px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+section {height: 1900px;
+  background-color:#111;
+  text-align: left;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 14.8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: Black;
+  padding: 10px;
+  color:white;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Adrien Toulemonde</a></li>
+  <li><a href="#Education">Education</a></li>
+  <li><a href="#Skills">Skills</a></li>
+  <li><a href="#Contact">Contact</a></li>
+    
+</ul>
+            </style>
+      </head>
+
+     <body>
+            <script>
+                    function myFunction() {
+                      var elmnt = document.getElementById("Home");
+                      elmnt.scrollIntoView();
+                    }
+                    function myFunction() {
+                      var elmnt = document.getElementById("Education");
+                      elmnt.scrollIntoView();
+                    }
+                    function myFunction() {
+                      var elmnt = document.getElementById("Skill");
+                      elmnt.scrollIntoView();
+                    }
+                    function myFunction() {
+                      var elmnt = document.getElementById("Contact");
+                      elmnt.scrollIntoView();
+                    }
+                    </script>
+                    </body>
+                    <div class="dropdown">
+                        <button class="dropbtn"> Social Media's</button>
+                        <div class="dropdown-content">
+                    <a href="https://www.facebook.com/profile.php?id=100004388508622">Facebook</a>
+                    <a href="https://www.linkedin.com/in/adrien-toulemonde-0a6833171/">Linkedin</a>
+                    </div>
+                  </div>
+       <header></header>
+        <section>
+            <nav>
+                  <ul>
+                    <img src="images/Toulemonde.jpg" width="240" height="300"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <img src="images/PSG.jpg" width="280" height="170"><br><br><br><br><br><br>
+                    <img src="images/ESSEC.jpeg" width="250" height="180"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <img src="images/FEDERER.jpg" width="280" height="200"><br><br><br><br><br><br><br>
+                    </ul>
+                    </nav>                                
+                <article style="color:white;">
+                <div id= "home"><h1 style="font-family:verdana;">Adrien TOULEMONDE</h1></div>
+                  <p>Student at Essec Business School</p>
+                  <br>
+                  <p><b>Phone:</b></p>
+                  <p>+33 6.16.42.44.72</p>
+                  <br>
+                  <p><b>Email:</b></p>
+                  <p>adritoulemonde.gmail.com or</p>
+                  <p>B00754541@essec.edu</p>
+                  <br>
+                  <p><b>Adress</b></p>
+                  <p>11 Les Maradas Verts, Pontoise 95000</p>
+                  <br>
+                  <p><b>Date Of Birth:</b></p>
+                  <p>December, 2nd 1999</p>
+                  <p><b>About Myself:</b></p>
+                  <p>I'am a responsible, curious and a sport's lover student that specializes in Business.</p>
+                    <p>Accepted in the best French Business School, I thrive for business innovations and technological development.</p>
+                    <p>After Finishing my GBBA, I will pursue with a Master in Marketing in the LFC (Luxury, Fashion, Cosmetics) world and hope to be accepted in a world leading digital marketing company.</p>
+                    <div id= "Education"><h2>Education</h2></div>
+            <p>-- Primary School: Saint Jean De Passy</p>
+
+            <p>-- School/Senior High School: Gerson</p>
+
+            <p>-- Obtained: Brevet des collège, equivalent to: GCSE (General Certificate of Secondary Education)</p>
+
+            <p>-- Senior High School: Lycée Fidès Beauséjour</p>
+
+            <p>-- Obtained: Baccalauréat Mention Bien, equivalent to: High School Diploma</p>
+
+            <p>-- Business School: Essec Business School</p>
+
+            <p>-- To be obtained: Bachelor's Degree in Business Administration (BBA)</p><br><br>
+            
+            <div id= "Skills"><h3>Skills</h3></div>
+            <p>Excel: advanced</p>
+            <p>PowerPoint: advanced</p>
+            <p>Word: advanced</p>
+            <p>Programming: beginner</p>
+            <p>English: Fluent</p>
+            <p>French: Native Tongue</p>
+            <p>Spanish: Fluent</p><br><br><br><br><br><br>
+            <div id= "Contact"><h4>Contact</h4></div>
+            <p>E-mail:</p>
+            <p>adritoulemonde@gmail.com or</p>
+            <p>B00754541@essec.edu</p>
+            <p>Phone Number:</p>
+            <p>+33 6.16.42.44.72</p>
+            <p>Adress:</p>
+            <p>11 Les Maradas Verts, Pontoise 95000</p>
+                </article>
+              </section>
+            <div class="container">
+                <form action="mailto:B00754541@essec.edu" method="post" enctype="text/plain">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                    <label for="country"></label>Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="spain">Spain</option>
+                    <option value="france">France</option>
+                    <option value="singapore">Singapore</option>
+                    <option value="italy">Italy</option>
+                    <option value="england">England</option>
+                    <option value="china">China</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+              </form>
+            </article>
+        </section>
+    </body>
+    </html>
